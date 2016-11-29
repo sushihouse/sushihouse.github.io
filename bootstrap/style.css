@@ -1,0 +1,345 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic-ext);
+h1,h2,h3,h4,h5,h6 { margin:0;
+    padding:0;}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+.header {
+    margin-bottom:15px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.logo h3, .phone h3 {
+    font-size: 36px;
+    font-weight:lighter
+}
+
+h3>span:last-child{
+    color:#e40e13;
+}
+
+.logo h2 {
+    color:#808080;
+    font-weight:lighter;
+}
+
+.banner {
+    background-image: url(../images/slide-410f90b8-b5df-4b71-a756-0c413a94916f.jpg);
+    height:500px;
+    background-position: center top;
+    position:relative;
+    background-size: cover;
+}
+
+.button {
+    display: inline-block;
+    background-color: #e40e13;
+    color:#fff;
+    padding:5px 30px;
+    font-size: 24px;
+    box-shadow: 5px 1px 5px rgba(0,0,0,0.3);
+    
+}
+
+.banner .button {
+    text-transform:uppercase;
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    margin-left: -144px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.action ul { padding:0;
+    list-style-type:none;
+    margin-right:10px;
+    overflow: hidden;
+    height:115px;
+    display:inline-block;
+    position:relative;
+    }
+
+.number {
+    display:block;
+    float:left;
+    background-image: url(../images/flip.png);
+    background-repeat: no-repeat;
+    width:55px;
+    height:89px;
+    text-align: center;
+    line-height:80px;
+    font-size:72px;
+    font-weight: bold;
+    position:relative;
+}
+.number::before {
+    content:" ";
+    display:block;
+    width:inherit;
+    height:inherit;
+    background-image: url(../images/flip_gradient.png);
+    position:absolute;
+    left:0;
+    top:0;}
+
+ul::after {
+    display:block;
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    text-align: center;
+    font-size:24px;
+    font-weight: bolder;
+    color: #555;
+}
+
+.days::after {
+    content: "дни";
+}
+
+.clock::after {
+    content: "часы";
+}
+
+.minutes::after {
+    content: "минуты";
+}
+
+.seconds::after {
+    content: "секунды";
+}
+
+.text {
+    padding:15px 0;
+}
+.text p {
+    padding:0;
+    margin:0;
+    font-size:34px;
+    
+}
+.text .red {color: #e40e13}
+
+
+
+.menu1 ul {
+    padding:0;
+    list-style-type:none;
+}
+div[class^='sutki'] {
+    background-repeat:no-repeat;
+    padding: 0 0 0 50px;
+    line-height:1em;
+}
+.sutki1 {
+    background-image: url(../images/clock.png);
+}
+.sutki2 {
+    background-image: url(../images/bicycler.png);
+}
+.sutki3 {
+    background-image: url(../images/heart.png);
+}
+.menu1 strong {
+    display:block;
+    color:#000;
+}
+
+.bludo {
+    margin:25px 0;
+    padding:25px 15px;
+    line-height:1em;
+    border-radius:10px;
+    border: 2px solid #ccc;
+    overflow:hidden;
+    height:145px
+    }
+
+
+
+.bludo img {
+    float:left;
+    width: 140px
+}
+.bludo h3, .bludo p {
+    margin:0;
+    padding:0;
+}
+.bludo h3 {
+    margin-top:25px    
+}
+
+.menu1 .button {
+    display:block;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size:48px;
+    font-weight:lighter;
+    text-transform: uppercase;
+    text-align: center;
+    position:relative;
+    margin-top:15px;
+}
+
+h1 span {color: #e40e13;}
+
+h1::before, h1::after{
+    content:"";
+    display:inline-block;
+    width: 25%;
+    height:0;
+    border-top: 2px solid #ccc;
+    position:absolute;
+    top:50%;
+}
+
+h1::before {
+    left:0;
+    margin-left:15px
+}
+
+h1::after {
+    right:0;
+    margin-right:15px
+}
+
+.menu2 ul {
+    padding:0;
+    list-style-type: none;
+    line-height:1em;
+}
+
+.price {
+    border-radius:10px;
+    border: 2px solid #ccc;
+    text-align: center;
+    position:relative;
+    margin-bottom:15px;
+}
+
+
+.price img { 
+    display:block;
+    margin:25px auto;
+}
+
+.price h2 {
+    color:#e40e13;
+    font-size: 20px;
+}
+
+.price p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.price span {
+    display:inline-block;
+    margin: 20px 0;
+}
+
+.price .cen {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.cena {
+    font-size: 48px;
+    color:#e40e13;
+    font-weight:bold;
+ }
+
+.valuta {
+    font-size: 28px;
+    font-weight:lighter;
+}
+
+.price .button {
+    padding: 10px 25px;
+    position:absolute;
+    right:0;
+    box-shadow: 0 5px 5px #ccc;
+    bottom: 20px;   
+}
+
+
+
+
+
+
+.reklama {
+    background-image: url(../images/california-2.jpg);
+    background-size: cover;
+    height:270px;
+    background-position: center;
+}
+
+
+.about {
+     border-radius:10px;
+    border: 2px solid #ccc;
+    text-align: center;
+    position:relative;
+    margin:15px 0;
+    padding: 20px 25px;
+    
+}
+
+iframe {
+    width:100%;
+    height:325px;
+    display:block;
+    padding: 15px;
+     border-radius:10px;
+    border: 2px solid #ccc;
+    text-align: center;
+    position:relative;
+    margin:15px 0;
+    background-color: #ddd;
+}
+
+.sertivicates img {
+    width:100%;
+}
+
+.otzivy ul {
+    padding: 15px;
+    margin:15px 0 0;
+    list-style-type: none;
+    border-radius:10px;
+    border: 2px solid #ccc;
+    text-align: center;
+    overflow: auto
+}
+
+.avatar {
+    width: 160px;
+    height:160px;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius:100%;
+    box-shadow: 0 0 0 10px #E30F18,
+        0 0 0 20px #000;
+}
+
+.avatar img {
+    width: 100%;
+    
+}
+
+.textotz {
+    margin:45px 0 15px;
+    }
+.action .container {
+    border-bottom:2px solid #ccc;
+}

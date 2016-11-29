@@ -1,0 +1,138 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+     .number {
+         width:45px;
+         height:79px;
+         background-size: 100%;
+         line-height:68px;
+         font-size:62px;
+        }
+    
+    
+    .number::before {
+          background-size: 100%;
+    }
+
+    ul::after {
+        bottom:20px;
+        font-size:20px;
+       }
+
+    .text {
+    padding:15px 0;
+    }
+    
+    .text p {
+        padding:0;
+        margin:0;
+        font-size:28px;
+    }
+
+    .bludo {
+        margin:25px 0;
+        padding:15px 15px;
+        overflow:hidden; 
+        text-align:center;
+        height:200px;
+        }
+
+    .bludo img {
+    float:none;
+    
+}
+    
+    .menu1 .button {
+        font-size:20px;
+    }
+    
+    h1 {
+        font-size: 38px
+    }
+    
+    iframe {
+        height:225px;
+    }
+    
+    .banner {
+        
+       height: 400px;
+       
+    }
+
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .phone {
+        text-align:center;
+    }  
+    .banner {
+        height: 230px
+    }
+    .button {
+        margin-bottom: 15px;
+    }
+    div[class^='sutki'] {
+        display:none;
+    }
+    .bludo img {
+        float:left;
+        width: 200px;
+    }
+    .bludo h3, .bludo p {
+        margin:0;
+        padding:0;
+        font-size:28px;
+        line-height:1em;
+        text-align:left;
+    }
+    .bludo h3 {
+        margin-top:40px; 
+        font-size:32px;
+        text-align: left;
+    }
+    h1::after, h1::before {
+        display:none;
+    }
+    .reklama {
+        display:none;
+    }
+    .logo {
+        text-align:center;
+    }
+    
+    
+    .action ul { 
+        height:80px;
+    }
+
+    .number {
+        width:40px;
+        height:66px;
+        line-height:60px;
+        font-size:60px;
+    }
+    ul::after {
+        bottom:0px;
+        font-size:14px;
+        }
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
